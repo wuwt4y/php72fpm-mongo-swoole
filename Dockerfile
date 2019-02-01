@@ -25,6 +25,7 @@ ENV \
         php7.2-ftp \
         php7.2-openssl \
         php7.2-zip \
+        php7.2-gd \
         php7.2-sysvsem \
         php7.2-sysvshm \
         php7.2-sysvmsg \
