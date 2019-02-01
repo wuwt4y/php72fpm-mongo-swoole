@@ -84,6 +84,4 @@ RUN printf "no\n" | pecl install swoole \
    && echo "extension=swoole" >> /etc/php/7.2/php.ini
 
 
-CMD ["/bin/sh"]
-
-ENTRYPOINT ["/bin/sh", "-c"]
+CMD ["/bin/bash"]
