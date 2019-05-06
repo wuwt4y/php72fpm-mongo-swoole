@@ -68,7 +68,7 @@ RUN apk --update add \
     openssl-dev
 
 RUN set -x \
-    && echo "https://repos.php.earth/alpine/v3.8" >> /etc/apk/repositories \
+    && echo "https://repos.php.earth/alpine/v3.9.3" >> /etc/apk/repositories \
     && apk add --no-cache $DEPS \
     && pecl install mongodb \
     && echo "extension=mongodb" >> /etc/php/7.2/php.ini \
